@@ -50,21 +50,21 @@
     <div class="inner">
       <h3 class="masthead-brand">Simba Sana</h3>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link" href="index.html">Book</a>
-        <a class="nav-link active" href="quote.html">Quote</a>
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="">Book</a>
+        <a class="nav-link active" href="">Quote</a>
+        <a class="nav-link" href="">Contact</a>
       </nav>
     </div>
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading"><i class="fas fa-grip-lines"></i> Book Quotes <i class="fas fa-grip-lines"></i></h1>
+    <h1 class="cover-heading"><i class="fas fa-grip-lines"></i> {{ self.heading }} <i class="fas fa-grip-lines"></i></h1>
     <div class="col-8 offset-2 quote-para">
-    <p class="lead">"My mother never told me anything about her past—not one thing! This may be hard to believe, but she talked to herself more than she ever actually spoke to me."</p>
+    <p class="lead">{{ self.quote1 }}</p>
     <i class="fas fa-grip-lines"></i>
-    <p class="lead">"Some people feel as if all black people might as well just call themselves African.” His suggestion struck me as so radical at the time, I couldn’t give him a response."</p>
+    <p class="lead">{{ self.quote2 }}</p>
     <i class="fas fa-grip-lines"></i>
-    <p class="lead">"Some people feel as if all black people might as well just call themselves African.” His suggestion struck me as so radical at the time, I couldn’t give him a response."</p>
+    <p class="lead">{{ self.quote3 }}</p>
     <i class="fas fa-grip-lines"></i>
   </div>
   </main>
